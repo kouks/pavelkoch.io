@@ -1,0 +1,38 @@
+
+
+a.action, button.action
+  background: transparent
+  border-radius: 2px
+  border: 1px solid transparent
+  color: $grey
+  cursor: pointer
+  font-size: $size-5
+  line-height: $size-5
+  outline: none
+  padding: 15px 35px
+  transition: .2s all ease
+
+  &.is-fullwidth
+    margin: 0
+    width: 100%
+
+  &.is-primary
+    background: $primary
+    border-color: $primary
+    color: $light
+
+.action-group
+  align-items: center
+  display: flex
+  justify-content: center
+
+  > .action
+    &:not(:last-child)
+      margin-right: 30px
+
+  @media screen and (max-width: 769px)
+    flex-direction: column
+
+    > .action
+      margin: 10px 0 !important
+      width: 80% !important

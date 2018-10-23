@@ -1,0 +1,36 @@
+{
+  "name": "pavelkoch.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "watch": "webpack-dev-server --mode=development --hot --quiet",
+    "build": "webpack --mode=production"
+  },
+  "author": "Pavel Koch <kouks.koch@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}
